@@ -1,3 +1,6 @@
+import { bold } from './deps.ts';
+
+/** Returns `Hello World` in bold */
 export function getHelloWorld(): string {
-  return "Hello World";
+  return bold('Hello World');
 }
