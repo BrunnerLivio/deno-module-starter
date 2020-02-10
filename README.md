@@ -21,5 +21,5 @@ deno ./test.ts
 ## Format code
 
 ```bash
-deno fmt --check **/*
+deno fmt **/*.ts
 ```
