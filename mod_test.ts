@@ -1,6 +1,6 @@
-import { test, assertEquals } from "./test_deps.ts";
+import { assertEquals } from "https://deno.land/std@0.83.0/testing/asserts.ts";
 import { getHelloWorld } from "./mod.ts";
 
-test(function test_get_hello_world() {
+Deno.test("get hello world", () => {
   assertEquals(getHelloWorld(), "\x1b[1mHello World\x1b[22m");
 });

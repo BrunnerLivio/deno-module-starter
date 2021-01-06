@@ -15,7 +15,7 @@ console.log(helloWorld); // Prints "Hello World" in bold
 
 ```bash
 # unit tests
-deno ./test.ts
+deno test
 ```
 
 ## Format code
